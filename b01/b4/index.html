@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../flex.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container_fluid">
+      <div class="container white-bg pd-body">
+        <form action="">
+          <section>
+            <span class="produce font-18">Basic Infor</span>
+            <div class="form-group">
+              <label for="" class="width-160 d-inline font-bold pd-50"
+                >Employee ID</label
+              >
+              <span>9</span>
+            </div>
+
+            <div class="form-group">
+              <label for="" class="width-160 d-inline font-bold pd-50"
+                >Last Name</label
+              >
+              <span>Dodsworth</span>
+            </div>
+
+            <div class="form-group">
+              <label for="firstname" class="width-160 d-inline font-bold pd-50"
+                >First Name</label
+              >
+              <input type="text" name="" id="firstname" value="Anne" />
+            </div>
+
+            <div class="form-gender d-flex">
+              <label
+                for="gender"
+                class="d-flex align-center width-160 d-inline font-bold pd-50"
+                >Gender</label
+              >
+              <div class="">
+                <div class="gender-option">
+                  <input type="radio" name="gender" id="male" />
+                  <label for="male">Male</label>
+                </div>
+
+                <div class="gender-option">
+                  <input type="radio" name="gender" id="female" />
+                  <label for="female">Female</label>
+                </div>
+
+                <div class="gender-option">
+                  <input type="radio" name="gender" id="xxx" />
+                  <label for="xxx">XXX</label>
+                </div>
+
+                <div class="gender-option">
+                  <input type="radio" name="gender" id="zzz" />
+                  <label for="zzz">ZZZ</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="title" class="width-160 d-inline font-bold pd-50"
+                >Title</label
+              >
+              <input type="text" value="Sales Representative" />
+            </div>
+
+            <div class="form-group">
+              <label for="suffix" class="width-160 d-inline font-bold pd-50"
+                >Suffix</label
+              >
+              <input type="text" value="Ms." />
+            </div>
+
+            <div class="form-group">
+              <label for="birthdate" class="width-160 d-inline font-bold pd-50"
+                >BirthDate</label
+              >
+              <input type="datetime-local" value="1969-07-02 00:00:00" />
+            </div>
+
+            <div class="form-group">
+              <label for="hiredate" class="width-160 d-inline font-bold pd-50"
+                >HireDate</label
+              >
+              <input type="datetime-local" value="1994-11-15 00:00:00" />
+            </div>
+
+            <div class="form-group">
+              <label for="ssn" class="width-160 d-inline font-bold pd-50"
+                >SSN# (if applicable)</label
+              >
+              <input type="password" id="ssn" />
+            </div>
+
+            <div class="form-group">
+              <label for="report" class="width-160 d-inline font-bold pd-50"
+                >Reports to</label
+              >
+              <select name="" id="">
+                <option value="" selected>Buchanan</option>
+                <option value="">NY</option>
+                <option value="">TL</option>
+              </select>
+            </div>
+          </section>
+          <!---------------------------------------------------------------------------------------------------------------------------->
+          <section>
+            <span class="produce font-18">Contact Infor</span>
+            <div>
+              <label for="email" class="width-160 d-inline font-bold pd-50"
+                >Email</label
+              ><input type="email" placeholder="name@.example.com" />
+            </div>
+            <div>
+              <label for="address" class="width-160 d-inline font-bold pd-50"
+                >Address</label
+              ><input type="text" value="7 Houndstooth Rd." />
+            </div>
+            <div>
+              <label for="city" class="width-160 d-inline font-bold pd-50"
+                >City</label
+              ><input type="text" value="London" />
+            </div>
+            <div>
+              <label for="region" class="width-160 d-inline font-bold pd-50"
+                >Region</label
+              ><input type="text" />
+            </div>
+            <div>
+              <label for="postalcode" class="width-160 d-inline font-bold pd-50"
+                >Postal Code</label
+              ><input type="text" value="WG2 7Lt" />
+            </div>
+            <div class="d-flex">
+              <label for="country" class="width-160 d-inline font-bold pd-50"
+                >Country</label
+              >
+              <select name="" id="">
+                <option value="" selected>Russian Federation</option>
+                <option value="">UK</option>
+                <option value="">US</option>
+              </select>
+            </div>
+            <div>
+              <label for="homephone" class="width-160 d-inline font-bold pd-50"
+                >US Home Phone</label
+              ><input type="tel" />
+            </div>
+            <div>
+              <label for="photo" class="width-160 d-inline font-bold pd-50"
+                >Photo</label
+              ><input type="text" value="EmpID9.bmp" />
+            </div>
+          </section>
+          <!---------------------------------------------------------------------------------------------------------------------------->
+          <section>
+            <span class="produce">Optional Info</span>
+            <div class="note d-flex align-center">
+              <label for="" class="width-160 d-inline font-bold pd-50"
+                >Notes</label
+              >
+              <div class="relative">
+                <img src="/b01/b4/Screenshot 2026-02-02 193124.png" alt="" />
+                <input
+                  type="text"
+                  class="absolute"
+                  value="Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ"
+                />
+              </div>
+            </div>
+            <div class="d-flex">
+              <label
+                for=""
+                class="d-flex align-center d-inline width-160 font-bold pd-50"
+                >Preferred Shift</label
+              >
+              <div class="shift-checkbox">
+                <div>
+                  <input type="checkbox" name="" id="regular" />
+                  <label for="regular">Regular</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="" id="gravy" checked />
+                  <label for="gravy">Gravy Yard</label>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label for="" class="width-160 d-inline font-bold pd-50"
+                >Active?</label
+              >
+              <input type="checkbox" checked />
+            </div>
+
+            <div class="d-flex align-center">
+              <label for="" class="width-160 d-inline font-bold pd-50"
+                >Are you human</label
+              >
+              <div class="click d-flex flex-column">
+                <img src="./Screenshot 2026-02-02 155003.png" alt="" />
+                <div class="click2ch-form d-flex flex-column">
+                  <label for="otp" class="click2ch">Click to change</label>
+                  <input type="text" name="" id="otp" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="produce"></div>
+        </form>
+        <div class="d-flex space-between mg-0">
+          <div>
+            <button class="grey-bg white-font">
+              <i class="bx bx-caret-left"></i>
+            </button>
+            <button class="grey-bg white-font">
+              <i class="bx bx-caret-right"></i>
+            </button>
+          </div>
+          <div class="align-right">
+            <button class="grey-bg white-font">
+              <i class="bx bx-save">Submit</i>
+            </button>
+            <button class="grey-bg white-font">
+              <i class="bx bx-x">Cancel</i>
+            </button>
+          </div>
+        </div>
+        <span class="pd-50 mgtop-10 pdleft-0 d-inline">*require</span>
+      </div>
+    </div>
+  </body>
+</html>

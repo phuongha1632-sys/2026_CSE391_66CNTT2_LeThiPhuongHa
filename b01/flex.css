@@ -1,0 +1,27 @@
+.container_fluid {
+  width: 100%;
+}
+.container {
+  width: 800px;
+}
+.rows {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.w_4 {
+  width: calc((100% / 12) * 4);
+}
+.d-flex {
+  display: flex;
+}
+.d-block {
+  display: block;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
