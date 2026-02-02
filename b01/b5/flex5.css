@@ -1,8 +1,12 @@
 .container_fluid {
   width: 100%;
 }
-.container {
+.container1 {
   max-width: 500px;
+  margin: 0 auto;
+}
+.container2 {
+  max-width: 1240px;
   margin: 0 auto;
 }
 .rows {
