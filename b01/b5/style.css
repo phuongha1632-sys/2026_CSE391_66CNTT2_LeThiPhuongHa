@@ -1,0 +1,85 @@
+body {
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.pd-10 {
+  padding: 5px 20px;
+}
+.pd-tlb-30 {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.blue-bd {
+  border: 1px solid blue;
+}
+.black-bg {
+  background-color: black;
+}
+.white-font {
+  color: white;
+}
+.blue-bg {
+  background-color: blue;
+}
+.orange-bg {
+  background-color: orange;
+}
+.red-bg {
+  background-color: red;
+}
+table,
+tr {
+  border: 1px solid rgba(163, 163, 163, 0.332);
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td {
+  padding: 10px;
+}
+table {
+  width: 100%;
+}
+.btn-edit,
+.btn-del,
+.btn-add,
+input {
+  border: none;
+  padding: 7px;
+}
+.pd-5 {
+  padding: 5px;
+}
+.btn-seach {
+  border: 1px solid white;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.title > span {
+  padding: 10px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: rgba(204, 200, 200, 0.597);
+}
+table {
+  background-color: white;
+}
+.btn-rds {
+  border-radius: 3px;
+}
+button:hover {
+  cursor: pointer;
+}

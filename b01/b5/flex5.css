@@ -2,7 +2,8 @@
   width: 100%;
 }
 .container {
-  width: 800px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 .rows {
   width: 100%;
@@ -12,16 +13,30 @@
 .w_4 {
   width: calc((100% / 12) * 4);
 }
+.w_6 {
+  width: calc((100% / 12) * 6);
+}
 .d-flex {
   display: flex;
 }
 .d-block {
   display: block;
 }
+.d-inlineblock {
+  display: inline-block;
+}
 .align-center {
-  display: flex;
   align-items: center;
 }
 .justify-center {
   justify-content: center;
+}
+.justify-space {
+  justify-content: space-between;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-end {
+  justify-content: flex-end;
 }

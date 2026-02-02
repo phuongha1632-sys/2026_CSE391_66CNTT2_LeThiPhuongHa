@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./addEmployee.css" />
+    <link rel="stylesheet" href="./flex5.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <form action="">
+      <div class="container blue-bd pd-b-10">
+        <div class="blue-bg pd-20 d-flex justify-space">
+          <span class="white-font font-bold font-20">New Employee</span>
+          <span class="grey-font font-20"><i class="bx bx-x"></i></span>
+        </div>
+        <div class="pd-10">
+          <div class="rows">
+            <div class="w_6 d-flex flex-column">
+              <label for="name" class="gap-label d-inlineblock">Name</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div class="w_6 d-flex flex-column">
+              <label for="email" class="gap-label d-inlineblock">Email</label>
+              <input type="email" name="" id="" />
+            </div>
+          </div>
+          <div class="rows">
+            <div class="w_6 d-flex flex-column">
+              <label for="phone" class="gap-label d-inlineblock">Phone</label>
+              <input type="tel" name="" id="" />
+            </div>
+            <div class="w_6 d-flex flex-column">
+              <label for="position" class="gap-label d-inlineblock"
+                >Position</label
+              >
+              <select name="" id="position">
+                <option value="" readonly selected>--Select Position--</option>
+                <option value="staff">Staff</option>
+                <option value="manager">Manager</option>
+                <option value="ceo">CEO</option>
+              </select>
+            </div>
+          </div>
+          <div class="w_6 d-flex flex-column">
+            <label for="sex" class="gap-label d-inlineblock">Sex</label>
+            <div class="d-flex sex-select">
+              <input type="radio" id="male" name="sex" />
+              <label for="male" class="mg-r-20">Male</label>
+              <input type="radio" id="female" name="sex" />
+              <label for="female">Female</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="line"></div>
+        <div class="d-flex justify-end">
+          <button class="green-bg btn-rds save-btn white-font">Save</button>
+          <button class="grey-bg btn-rds cancel-btn white-font">Cancel</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
