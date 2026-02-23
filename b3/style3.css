@@ -1,0 +1,30 @@
+:root {
+  --nav-color: #f8f9fa;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--nav-color);
+  padding: 15px;
+}
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.card {
+  flex: 0 0 calc(33.33% - 20px);
+}
+@media (max-width: 768px) {
+  .posts {
+    flex-direction: column;
+  }
+  .card {
+    flex: 1 1 100%;
+  }
+}
