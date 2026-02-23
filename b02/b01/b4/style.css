@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+.pd-body {
+  padding: 40px 30px 10px 10px;
+}
+.produce::after {
+  display: block;
+  content: "";
+  border: 1px solid grey;
+  margin-bottom: 10px;
+}
+.pd-50 {
+  padding-left: 10px;
+}
+.produce {
+  font-weight: bold;
+}
+
+.d-inline {
+  display: inline-block;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="datetime-local"],
+input[type="tel"] {
+  width: 550px;
+  margin: 2px;
+  border-top: 2px solid black;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+.width-160 {
+  width: 160px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.flex-start {
+  align-items: flex-start;
+}
+.flex-column {
+  flex-direction: column;
+}
+.click2ch {
+  text-align: center;
+}
+.click > img {
+  width: 200px;
+}
+.note > div > img {
+  width: 400px;
+  height: 200px;
+}
+.note > div > input {
+  background-color: #f2f1eb;
+  width: 390px;
+  top: 60px;
+  left: 8px;
+  border: none;
+  outline: none;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.click2ch-form {
+  margin-bottom: 30px;
+}
+.white-bg {
+  background-color: white;
+}
+.grey-bg {
+  background-color: grey;
+}
+.white-font {
+  color: white;
+}
+.space-between {
+  justify-content: space-between;
+}
+.mgtop-10 {
+  margin-top: 10px;
+}
+.pdleft-0 {
+  padding-left: 0;
+}
