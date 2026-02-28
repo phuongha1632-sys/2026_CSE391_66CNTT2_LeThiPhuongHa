@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   height: 100vh;
@@ -9,10 +11,9 @@ main {
 }
 img {
   width: 100%;
+  display: block;
 }
-.pt-bg {
-  background-image: url("./photo/Screenshot\ 2026-02-26\ 210331.png");
-}
+
 .header-bd {
   border: 3px solid orange;
 }
@@ -52,6 +53,15 @@ footer {
 .pd-20 {
   padding: 20px;
 }
+.pd-10 {
+  padding: 10px;
+}
+.pd-5 {
+  padding: 5px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
 .gap-40 {
   gap: 40px;
 }
@@ -68,4 +78,54 @@ footer {
 }
 .w-mini {
   width: 30%;
+}
+.main-photo {
+  height: 55vh;
+}
+.mini-photo img {
+  height: 25vh;
+}
+
+.header-content span,
+.highlight {
+  font-size: 25px;
+}
+.header img,
+.header-content {
+  grid-area: 1 / 1; /* Chồng lên nhau tại ô đầu tiên */
+}
+.header img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.header-content {
+  z-index: 1;
+}
+.yellow-color {
+  color: yellow;
+}
+.yellow-bg {
+  background-color: yellow;
+}
+.white-color {
+  color: white;
+}
+.bd-rd-5 {
+  border-radius: 5px;
+}
+.form-bg {
+  background-color: rgba(0, 0, 0, 0.555);
+}
+.main-photo,
+.form-content {
+  grid-area: 1/1;
+}
+form {
+  width: fit-content;
+  padding: 50px 100px;
+}
+.greeting {
+  font-size: 30px;
+  font-weight: bold;
 }

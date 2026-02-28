@@ -10,6 +10,9 @@
 .d-block {
   display: block;
 }
+.d-grid {
+  display: grid;
+}
 .justify-center {
   justify-content: center;
 }
@@ -44,4 +47,12 @@
 }
 .mb-10 {
   margin-bottom: 10px;
+}
+.absolute {
+  position: absolute;
+  width: 100%;
+}
+.relative {
+  position: relative;
+  width: 100%;
 }

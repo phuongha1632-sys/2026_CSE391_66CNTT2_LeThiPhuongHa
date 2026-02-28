@@ -8,42 +8,62 @@
     <link rel="stylesheet" href="../flex.css" />
   </head>
   <body>
-    <header
-      class="header-bd container-fluid rows space-between pt-bg bg-header"
-    >
-      <span class="text-center">TRAVEL GOALS</span>
-      <nav>
-        <ul class="rows footer-bd space-between">
-          <li>Destinations</li>
-          <li>About</li>
-        </ul>
-      </nav>
+    <header class="header-bd container-fluid">
+      <div class="header d-grid relative">
+        <img
+          src="./photo/Screenshot 2026-02-26 210331.png"
+          alt=""
+          class="absolute"
+        />
+        <div class="header-content pd-10 rows space-between align-center">
+          <span class="text-center yellow-color">TRAVEL GOALS</span>
+          <nav>
+            <ul class="rows footer-bd space-between">
+              <li class="yellow-color">Destinations</li>
+              <li class="yellow-color">About</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main class="container-fluid main-bd">
-      <section class="w-1 section1-bd man_photo">
-        <img src="./photo/ocean.jpg" alt="main_photo" />
+      <section class="w-1 section1-bd d-grid">
+        <img src="./photo/ocean.jpg" alt="main-photo" class="main-photo" />
+        <div class="form-content d-flex justify-center item-center">
+          <form action="submit" class="form-bg bd-rd-5">
+            <div class="d-flex col-dir gap-20">
+              <p class="white-color greeting">JOE'S TRAVEL PAGE</p>
+              <p class="white-color">LET'S EXPLORE THE WORLD TOGETHER</p>
+              <button type="button" class="yellow-bg bd-rd-5 pd-10">
+                Dicover places
+              </button>
+            </div>
+          </form>
+        </div>
       </section>
-      <section class="text-center section2-bd section2-bg mini_photo">
-        <span>HIGHLIGHT</span>
+      <section class="text-center section2-bd section2-bg mini-photo">
+        <div class="pd-20 highlight">HIGHLIGHT</div>
         <div class="rows justify-center gap-20">
           <div class="w-mini">
             <img src="./photo/miami.jpg" alt="mini_photo" />
-            <span>MIAMI USA</span>
+            <p class="pb-40">MIAMI USA</p>
           </div>
           <div class="w-mini">
             <img src="./photo/miami.jpg" alt="mini_photo" />
-            <span>MUNICH GERMANY</span>
+            <p class="pb-40">MUNICH GERMANY</p>
           </div>
           <div class="w-mini">
             <img src="./photo/barcelona.jpg" alt="mini_photo" />
-            <span>BARCELONA SPAIN</span>
+            <p class="pb-40">BARCELONA SPAIN</p>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer-bd d-flex justify-center align-center pd-20 gap-40">
-      <div style="width: 30px"><img src="./photo/insta.png" alt="" /></div>
-      <div style="width: 30px"><img src="./photo/facebook.png" alt="" /></div>
+    <footer class="container-fluid">
+      <div class="footer-bd d-flex justify-center align-center pd-10 gap-40">
+        <div style="width: 30px"><img src="./photo/insta.png" alt="" /></div>
+        <div style="width: 30px"><img src="./photo/facebook.png" alt="" /></div>
+      </div>
     </footer>
   </body>
 </html>
