@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="b6.css" />
+    <link rel="stylesheet" href="../flex.css" />
+  </head>
+  <body>
+    <div id="list" class="d-flex col-dir justify-center item-center">
+      <h1>Danh sách các môn học</h1>
+      <ul>
+        <li class="list-item">Toán</li>
+        <li class="list-item">Văn</li>
+        <li class="list-item">Anh</li>
+        <li class="list-item">Lý</li>
+      </ul>
+      <div>
+        <button id="change-btn">click to change</button>
+        <button id="return-btn">Click to return</button>
+      </div>
+      <div id="infor"></div>
+      <button id="color" class="mg">Change color</button>
+    </div>
+
+    <script src="eventListener.js"></script>
+  </body>
+</html>
+<!--
+ Gán sự kiện click cho một nút bấm.
+• Thử nghiệm gán nhiều listeners khác nhau cho cùng 1 phần tử.
+• Lắng nghe sự kiện mouseenter / mouseleave.
+• Thay đổi textContent của một thẻ khi người dùng click vào.
+• Toggle class để đổi màu nền khi click nút.
+-->

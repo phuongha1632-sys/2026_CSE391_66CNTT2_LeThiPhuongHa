@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="b6.css" />
+    <link rel="stylesheet" href="../flex.css" />
+    <link rel="stylesheet" href="ac.css">
+  </head>
+  <body>
+    <div class="container-fluid black-mode">
+      
+      <div class="container d-flex col-dir justify-center item-center gap-30">
+        <div class="d-flex justify-center item-center pt-30">
+        <h1 class="d-none tex-center" id="greeting">Giới thiệu ảnh đầu bếp</h1>
+        <button id="greeting-block" class=" ">hiện</button>
+        <button id="greeting-none" class=" ">ẩn</button>
+      </div>
+         <div class=" d-flex justify-center item-center pt-30 col-dir gap-30">
+               <img id="img" src="../images/chef-1.png"></img>
+              <button id="change">change</button>
+        </div>
+            <button id="mode">Mode</button>
+
+      </div>
+    </div>
+
+    <script src="ac.js"></script>
+  </body>
+</html>
+
+<!--
+Thay đổi thuộc tính src của một thẻ <img>.
+• Sử dụng dot notation để gán giá trị cho các properties.
+• Thêm và xóa class cho phần tử bằng classList.add / remove.
+• Sử dụng classList.toggle để bật/tắt một trạng thái.
+• Kiểm tra sự tồn tại của class bằng classList.contains
+    -->

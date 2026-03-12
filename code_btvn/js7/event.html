@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../flex.css" />
+    <link rel="stylesheet" href="event.css" />
+  </head>
+  <body>
+    <form id="todoForm">
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="Nhập việc cần làm..."
+        required
+      />
+      <button type="submit">Thêm việc</button>
+    </form>
+
+    <ul id="todoList">
+      <li>Học JavaScript <button class="delete-btn">Xóa</button></li>
+      <li>Học Event Loop <button class="delete-btn">Xóa</button></li>
+    </ul>
+    <script src="event.js"></script>
+  </body>
+</html>

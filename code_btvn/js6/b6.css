@@ -1,0 +1,14 @@
+.decorate {
+  list-style-type: none;
+  color: yellow;
+  background-color: blue;
+}
+.active {
+  background-color: pink;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.337);
+}
+.mg {
+  margin-top: 15px;
+}

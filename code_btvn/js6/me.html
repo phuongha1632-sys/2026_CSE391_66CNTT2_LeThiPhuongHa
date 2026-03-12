@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../flex.css" />
+    <style>
+      button {
+        width: fit-content;
+        height: 50px;
+        color: white;
+        border-radius: 6px;
+        background-color: rgb(33, 199, 33);
+      }
+      .decorate {
+        font-size: 30px;
+        color: yellow;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container d-flex col-dir justify-center item-center gap-30">
+        <div>
+          <h1>Đây la bài thực hành js6</h1>
+          <button id="changeBtn">click vào tôi để đổi tiêu đề</button>
+        </div>
+        <div id="insert"></div>
+        <div>
+          <div class="remove text-center">Xóa tôi đi</div>
+          <button id="removeBtn">click vào tôi để xóa</button>
+        </div>
+
+        <ul>
+          <li>Toán</li>
+          <li>Văn</li>
+          <li>Anh</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="me.js"></script>
+  </body>
+</html>
+<!--
+Thao tác nội dung và cấu trúc DOM:
+• Thay đổi văn bản tiêu đề bằng textContent.
+• Chèn thêm mã HTML vào một div bằng innerHTML.
+• Sử dụng createElement để tạo một thẻ <li> mới.
+• Append phần tử vừa tạo vào danh sách <ul>.
+• Thử xóa một phần tử bằng phương thức remove().
+-->
