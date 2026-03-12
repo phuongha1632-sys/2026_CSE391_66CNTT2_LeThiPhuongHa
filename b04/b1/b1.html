@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../flex.css" />
+    <link rel="stylesheet" href="b1.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="d-flex col-dir gap-100">
+          <div class="d-flex pt-30 space-evenly">
+            <form action="" class="col-dir d-flex justify-center item-center">
+              <div class="d-flex col-dir gap-20">
+                <div class="input">
+                  <label for="name">Họ tên</label>
+                  <input type="text" id="name" />
+                </div>
+                <div class="input">
+                  <label for="mark">Điểm</label>
+                  <input type="text" id="mark" placeholder="0-10" />
+                </div>
+              </div>
+              <button>Add</button>
+            </form>
+            <form
+              action=""
+              id="searchForm"
+              class="col-dir d-flex justify-center item-center"
+            >
+              <div class="d-flex justify-center item-center gap-30">
+                <div>
+                  <label for="search">Tìm kiếm</label>
+                  <input type="text" id="search" />
+                </div>
+                <div id="sort">
+                  <!-- Tất cả / Giỏi / Khá / Trung bình / Yếu-->
+                  <select name="" id="dropDown">
+                    <option value="Tất cả">Tất cả</option>
+                    <option value="Giỏi">Giỏi</option>
+                    <option value="Khá">Khá</option>
+                    <option value="Trung bình">Trung bình</option>
+                    <option value="Yếu">Yếu</option>
+                  </select>
+                </div>
+              </div>
+              <button>Search</button>
+            </form>
+          </div>
+
+          <div class="">
+            <table>
+              <thead>
+                <th>STT</th>
+                <th>Họ tên</th>
+                <th>Điểm</th>
+                <th>Xếp loại <i class="bx bx-caret-up" id="sortIcon"></i></th>
+                <th>Thao tác</th>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <div id="infor" class="d-flex justify-center item-center pt-30">
+              so sinh vien: 0 <br />
+              diem trung binh:0
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="b1.js"></script>
+  </body>
+</html>
