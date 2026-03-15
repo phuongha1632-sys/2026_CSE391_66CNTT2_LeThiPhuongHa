@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#submit {
+  width: fit-content;
+  padding: 12px 35px;
+  border-radius: 6px;
+  background-color: rgb(20, 186, 20);
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+.form-group,
+.gender-group {
+  margin-top: 35px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  position: relative;
+}
+.form-group input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.form-group label,
+.gender-group > label {
+  display: block;
+  width: 140px;
+}
+.checkbox p {
+  padding: 50px 0 20px 0;
+}
+.checkbox {
+  padding-bottom: 20px;
+  position: relative;
+}
+label.error {
+  position: absolute;
+  color: red;
+  left: 105%;
+}
+
+.pw-strong {
+  border: 1px green solid;
+}
+.pw-medium {
+  border: 1px yellow solid;
+}
+.pw-weak {
+  border: 1px red solid;
+}
+#eye {
+  border: none;
+  position: absolute;
+  color: black;
+  background-color: transparent;
+  right: 10px;
+}
+#pw {
+  position: relative;
+}
+.line {
+  text-decoration: line-through;
+}
+#count {
+  position: absolute;
+  right: 10px;
+  color: gray;
+}
+#name {
+  position: relative;
+}
+.red-bd {
+  border: 1px red solid;
+}

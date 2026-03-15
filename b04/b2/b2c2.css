@@ -34,3 +34,6 @@ label.error {
   right: 10px;
   color: grey;
 }
+.error-bd {
+  border: 2px red solid;
+}

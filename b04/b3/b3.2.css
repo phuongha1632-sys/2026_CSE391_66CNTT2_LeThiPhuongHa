@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #007bff;
+  --bg-color: #f8f9fa;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.form-box {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+/* Thanh tiến trình */
+.progress-bar-container {
+  background: #e9ecef;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+}
+#progress-fill {
+  background: var(--primary-color);
+  height: 100%;
+  width: 33%;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.step-indicator {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.form-step {
+  display: none;
+}
+.form-step.active {
+  display: block;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+}
+input:focus {
+  border-color: var(--primary-color);
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#nextBtn {
+  background: var(--primary-color);
+  color: white;
+}
+#nextBtn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+#prevBtn {
+  background: #6c757d;
+  color: white;
+}
+
+.review-box {
+  background: #f1f3f5;
+  padding: 15px;
+  border-radius: 8px;
+  line-height: 1.6;
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="b3.2.css" />
+  </head>
+  <body>
+    <div class="form-box">
+      <div class="progress-bar-container"><div id="progress-fill"></div></div>
+      <div class="step-indicator">BƯỚC <span id="step-num">1</span> / 3</div>
+
+      <form id="regForm">
+        <div class="form-step active">
+          <h3>Thông tin cá nhân</h3>
+          <div class="group">
+            <label>Họ và tên</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="group">
+            <label>Ngày sinh</label>
+            <input type="date" id="dob" required />
+          </div>
+          <div class="group">
+            <label>Giới tính</label>
+            <select id="gender" required>
+              <option value="">-- Chọn giới tính --</option>
+              <option value="Nam">Nam</option>
+              <option value="Nữ">Nữ</option>
+              <option value="Khác">Khác</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-step">
+          <h3>Tài khoản</h3>
+          <div class="group">
+            <label>Email</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="group">
+            <label>Mật khẩu</label>
+            <input type="password" id="pass" required />
+          </div>
+          <div class="group">
+            <label>Xác nhận mật khẩu</label>
+            <input type="password" id="confirm" required />
+          </div>
+        </div>
+
+        <div class="form-step">
+          <h3>Xác nhận đăng ký</h3>
+          <div id="review-data" class="review-box"></div>
+        </div>
+
+        <div class="nav-buttons">
+          <button type="button" id="prevBtn" style="visibility: hidden">
+            Quay lại
+          </button>
+          <button type="button" id="nextBtn" disabled>Tiếp theo</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="b3.2.js"></script>
+  </body>
+</html>
